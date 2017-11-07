@@ -5,9 +5,12 @@
 		</title>
 		<style type = "text/css" media = "all">
 		
+            
 			#IDphoto {
-				width:300px;
-				height:400px;
+				width:0px;
+				height:0px;
+                border:0;
+				visibility:hidden;
 			}
 			.Fun {
 				text-decoration:line-through;
@@ -16,28 +19,39 @@
 		</style>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-
+			$(document).ready(function() {
+			/* This codes do not work */
+				$("#IDphoto").css("width", 0px);
+				$("#IDphoto").css("height", 0px);
 		</script>
 		
 	</head>
 
 	<body>
-        
-		<h1 class="headline"> Minseong Kim(김민성) </h1>
-        <h4 class="headline"> a.k.a. Binghagoon, Bingha </h4>
+        <div id="hd">
+          <h1 class="headline"> Minseong Kim(김민성) </h1>
+            <h4 class="headline"> a.k.a. Binghagoon, Bingha </h4>
 
         </div>
-        <div class="main">
-            
-            2nd year, undergraduate<br />
-            Department of Computer Science and Engineering<br />
-            College of Informatics, Korea University<br />
-            
-        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td width="0%">
+                        <img src="IDphoto_17.07.02.jpg" id="IDphoto">
+                    </td>
+                    <td>
+                        <div class="main">
+                            2nd year, undergraduate<br />
+                            Department of Computer Science and Engineering<br />
+                            College of Informatics, Korea University<br />
+                            A vice-chairman, Creative Advanced Technology &amp; Development Of Games, Korea University<br />
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         
 		<div class="noname">
-			
-			A vice-chairman, Creative Advanced Technology &amp; Development Of Games, Korea University</br>
 
 		</div>
 
@@ -61,6 +75,7 @@
 				<li> Mail: foat3376 (at) korea (dot) ac (dot) kr </li>
 				<li> Facebook: <a href="https://www.facebook.com/profile.php?id=100007281275598">My facebook page</a> </li>
 				<li> Twitter: <a href="https://twitter.com/wold5538">My twitter page</a> </li>
+            </ul>
 		</div>
 	</body>
 </html>
