@@ -3,20 +3,7 @@
         <title>
             Minseong Kim
         </title>
-        <style type = "text/css" media = "all">
-            .Fun {
-                text-decoration:line-through;
-            }
-        </style>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-            $(document).ready(function() {
-            /* This codes do not work */
-                $("#IDphoto").css("width", 0px);
-                $("#IDphoto").css("height", 0px);
-            });
-        </script>
-
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body>
@@ -25,33 +12,34 @@
           <h4 class="headline"> Alias: Binghagoon, Bingha </h4>
         </div>
 
-        <div class="proflie">
+        <div class="block" id="proflie">
             <h3>Proflie</h3>
-            <h4>Bio</h4>
+            <h4>History</h4>
             <ul>
-                <li>2016-now: 3rd year, Undergraduate, Dept. of CSE, College of Informatics, Korea University</li>
-                <li>2014-2016: Andong Highschool</li>
+                <li>2016 - now: 3rd year, Undergraduate, Dept. of CSE, College of Informatics, Korea University</li>
+                <li>2013 - 2015: Andong Highschool</li>
             </ul>
             <h4>Experience</h4>
             <ul>
                 <li>July 2017 - December 2017: A vice-chairman, Creative Advanced Technology &amp; Development Of Games, Korea University</li>
+                <li>July 2015: Bronze, Korea Olympiad in Informatics</li>
             </ul>
         </div>
 
-        <div class="langage">
+        <div class="block" id="langage">
             <h3>Language Skills</h3>
-            <div id="verbal">
+            <div name="verbal">
                 <h4>Verbal Language</h4>
                 <ul>
-                    <li>Korean <div id="comment">as native</div></li>
-                    <li>English <div id="comment">as second language</div></li>
+                    <li>Korean<div id="comment">as native</div></li>
+                    <li>English<div id="comment">as second language</div></li>
                     <li>Japanese <div id="comment">as a beginner</div></li>
                 </ul>
             </div>
-            <div id="programming">
+            <div name="programming">
                 <h4>Programming Language</h4>
                 <ul>
-                    <li>C, C++ <small></small></li>
+                    <li>C, C++ </li>
                     <li>C# with Unity</li>
                     <li>Java</li>
                     <li>Python</li>
@@ -60,7 +48,7 @@
             </div>
         </div>
 
-        <div class="education">
+        <div class="block" id="education">
             <h3>Education</h3>
             <h4>Course on University</h4>
             <ul>
@@ -79,12 +67,12 @@
             </ul>
         </div>
 
-        <div class="developed">
+        <div class="block" id="developed">
             <h3>Developed Applications</h3>
             //TBD
         </div>
 
-        <div class="interests">
+        <div class="block" id="interests">
             <h3> Interests </h3>
             <ul>
                 <li>Functional Programming </li>
@@ -93,7 +81,7 @@
             </ul>
         </div>
 
-        <div name="Contact me">
+        <div class="block" id="Contact me">
             <h3> Contact me </h3>
             <ul id="Contact">
                 <li> Mail: foat3376 (at) korea (dot) ac (dot) kr </li>

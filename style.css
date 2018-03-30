@@ -1,0 +1,15 @@
+h1 {
+    margin: auto;
+}
+h3 {
+}
+#comment{
+    font-size: 80%;
+}
+.block{
+    border: hidden;
+}
+.Fun {
+    color: darkgray;
+    text-decoration:line-through;
+}
